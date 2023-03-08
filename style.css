@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(197, 126, 20, 0.466);
+}
+
+.boton{
+    background-color:rgb(21, 120, 207);
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    border: 2px solid rgb(34, 177, 233);
+    border-radius: 12px;
+    transition-duration: 0.3s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+} 
+
+.boton:hover{
+    background-color: rgb(18, 197, 221);
+
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: black;
+} 
